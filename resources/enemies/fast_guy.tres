@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="EnemyResource" load_steps=3 format=3 uid="uid://bbnbqu22totqx"]
+
+[ext_resource type="SpriteFrames" uid="uid://drmxwclfhnfmr" path="res://resources/animations/fast_guy_frames.tres" id="1_7pi25"]
+[ext_resource type="Script" uid="uid://bxtjti5hlu2op" path="res://scripts/resources/enemy_resource.gd" id="2_50nuv"]
+
+[resource]
+script = ExtResource("2_50nuv")
+enemy_id = "fast_guy"
+enemy_name = "Fast Guy"
+animated_frames = ExtResource("1_7pi25")
+max_health = 80.0
+contact_damage = 6.0
+move_speed = 150.0
+detection_range = 800.0
+xp_value = 12
+spawn_weight = 5
+credit_cost = 5

@@ -7,6 +7,7 @@
 [resource]
 script = ExtResource("1_basic_pistol")
 projectile_config = ExtResource("3_projectile")
+projectile_count = 3
 spread_angle = 0.0
 item_id = "basic_pistol"
 item_name = "Basic Pistol"

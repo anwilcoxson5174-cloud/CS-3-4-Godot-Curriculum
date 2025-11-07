@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="ProjectileWeaponResource" load_steps=5 format=3 uid="uid://bcd7ggi8e1ycu"]
+
+[ext_resource type="Texture2D" uid="uid://dskx2xph4sxsw" path="res://assets/New Piskel (2) (1) (4).png" id="1_m3khk"]
+[ext_resource type="Resource" uid="uid://c1gdh8fyh31yb" path="res://resources/projectiles/slug.tres" id="2_m3khk"]
+[ext_resource type="Script" uid="uid://c6yex7bm6vt2g" path="res://scripts/resources/projectile_weapon_resource.gd" id="3_3dgpv"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_60lhi"]
+load_path = "res://.godot/imported/New Piskel (2).png-2a2ca539d3a4f4c35544aeeab3e7a3b9.ctex"
+
+[resource]
+script = ExtResource("3_3dgpv")
+projectile_config = ExtResource("2_m3khk")
+spread_angle = 0.1
+item_id = "slug_thrower"
+item_name = "Slug Thrower"
+description = "A break action shotgun"
+icon = ExtResource("1_m3khk")
+value = 50
+base_damage = 120.0
+fire_rate = 1.2
+weapon_range = 1000.0
+accuracy_spread = 7.0
+weight = 3
+weapon_sprite = SubResource("CompressedTexture2D_60lhi")

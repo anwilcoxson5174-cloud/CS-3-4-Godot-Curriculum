@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ProjectileResource" load_steps=3 format=3 uid="uid://c1gdh8fyh31yb"]
+
+[ext_resource type="Script" uid="uid://dmxm5o1dwdxrs" path="res://scripts/resources/projectile_resource.gd" id="1_fgn3r"]
+[ext_resource type="Texture2D" uid="uid://dg65b4u0smsso" path="res://assets/2D Pixel Dungeon Asset Pack/items and trap_animation/arrow/Just_arrow.png" id="2_cldki"]
+
+[resource]
+script = ExtResource("1_fgn3r")
+texture = ExtResource("2_cldki")
+scale = Vector2(0.5, 0.5)
+speed = 600.0
+lifetime = 0.5
+damage = 120.0
+piercing = true
+max_pierces = 2

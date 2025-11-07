@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="ProjectileWeaponResource" load_steps=5 format=3 uid="uid://c73jpq85ul2ig"]
+
+[ext_resource type="Texture2D" uid="uid://b32yh3fx3jh24" path="res://assets/New Piskel (2) (1) (7).png" id="1_eea6l"]
+[ext_resource type="Resource" uid="uid://d2ma8ylxhvduw" path="res://resources/projectiles/buckshot.tres" id="2_ok5mh"]
+[ext_resource type="Script" uid="uid://c6yex7bm6vt2g" path="res://scripts/resources/projectile_weapon_resource.gd" id="3_l7w0u"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_60lhi"]
+
+[resource]
+script = ExtResource("3_l7w0u")
+projectile_config = ExtResource("2_ok5mh")
+projectile_count = 9
+item_id = "shotgun"
+item_name = "Shotgun"
+description = "Some random shotgun you found in a guys house."
+icon = ExtResource("1_eea6l")
+value = 50
+base_damage = 60.0
+fire_rate = 1.2
+weapon_range = 300.0
+accuracy_spread = 15.0
+weight = 3
+weapon_sprite = SubResource("CompressedTexture2D_60lhi")

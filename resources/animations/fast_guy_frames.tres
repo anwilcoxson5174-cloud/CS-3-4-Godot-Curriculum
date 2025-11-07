@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" load_steps=7 format=3 uid="uid://drmxwclfhnfmr"]
+
+[ext_resource type="Texture2D" uid="uid://c2nu2tytsmdm4" path="res://assets/New Piskel (1).png" id="1_js7sn"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8s070"]
+atlas = ExtResource("1_js7sn")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vrhmv"]
+atlas = ExtResource("1_js7sn")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pu48g"]
+atlas = ExtResource("1_js7sn")
+region = Rect2(0, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h3mo7"]
+atlas = ExtResource("1_js7sn")
+region = Rect2(128, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dla7x"]
+atlas = ExtResource("1_js7sn")
+region = Rect2(0, 256, 128, 128)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8s070")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vrhmv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pu48g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h3mo7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dla7x")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]

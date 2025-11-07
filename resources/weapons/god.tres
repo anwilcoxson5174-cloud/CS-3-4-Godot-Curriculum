@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="ProjectileWeaponResource" load_steps=5 format=3 uid="uid://d1c7narr5u35b"]
+
+[ext_resource type="Texture2D" uid="uid://nccg2cx11qv8" path="res://assets/New Piskel (2) (1) (6).png" id="1_n7w37"]
+[ext_resource type="Resource" uid="uid://d2ma8ylxhvduw" path="res://resources/projectiles/buckshot.tres" id="2_n7w37"]
+[ext_resource type="Script" uid="uid://c6yex7bm6vt2g" path="res://scripts/resources/projectile_weapon_resource.gd" id="3_21a5a"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_60lhi"]
+
+[resource]
+script = ExtResource("3_21a5a")
+projectile_config = ExtResource("2_n7w37")
+projectile_count = 75
+spread_angle = 360.0
+item_id = "duck_hunter"
+item_name = "Duck Hunter"
+description = "A firearm originally used for hunting, but now can be used to hit many enemies in a group."
+icon = ExtResource("1_n7w37")
+value = 50
+base_damage = 60.0
+fire_rate = 0.01
+weapon_range = 300.0
+accuracy_spread = 80.0
+weight = 3
+weapon_sprite = SubResource("CompressedTexture2D_60lhi")
