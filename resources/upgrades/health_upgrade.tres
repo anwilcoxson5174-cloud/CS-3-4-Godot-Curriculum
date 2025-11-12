@@ -5,6 +5,6 @@
 [resource]
 script = ExtResource("1_health_upgrade")
 upgrade_id = "health_boost"
-upgrade_name = "Max Health +20"
-description = "Increases your maximum health"
+upgrade_name = "Todays apple "
+description = "To keep The doctor away"
 amount = 20.0
