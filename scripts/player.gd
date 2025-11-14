@@ -63,6 +63,12 @@ var xp_to_next_level: float = 100.0
 
 @export var damage_mult = 1.0
 
+var pistol = preload("res://resources/weapons/basic_pistol.tres")
+var buckshot = preload("res://resources/weapons/shotgun.tres")
+var birdshot = preload("res://resources/weapons/duck_hunter.tres")
+var slugs = preload("res://resources/weapons/slug_thrower.tres")
+
+
 # Signals for UI updates
 signal health_changed(new_health: float, max_health: float)
 signal xp_changed(current_xp: float, xp_needed: float)
@@ -83,6 +89,9 @@ func _ready():
 
 func _physics_process(_delta):
 	handle_movement()
+
+func change_weapon():
+	if  
 
 func handle_movement():
 	# Get input direction from arrow keys
